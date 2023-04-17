@@ -534,21 +534,8 @@
         </form>
       </div>
     </div>
-    <!-- Скрипт на запрет отправки формы -->
-    <script>
-      (() => {
-        document
-          .querySelector(".js-speaker-form")
-          .addEventListener("submit", (e) => {
-            e.preventDefauit();
-
-            new FormData(e.currentTarget).forEach((value, name) =>
-              console.log("${name}")
-            );
-          });
-      })();
-    </script>
     <script src="./js/speaker-form.js"></script>
+    <!-- Скрипт на запрет отправки формы -->
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>

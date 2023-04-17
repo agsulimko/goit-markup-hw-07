@@ -47,6 +47,10 @@ img {
   list-style: none;
   margin: 0;
 }
+
+/* $mobile:576px;
+$tablet:768px;
+$desktop:1140px; */
   
 /* ===============COMPONENTS=================== */
 .container{
@@ -564,7 +568,7 @@ background-image: url(../images/icons/icon_astronaut.svg );
 .works-list {
   display: flex;
   justify-content:space-between; 
-  padding-bottom: 120%px;
+  
 }
 
   /* ===========/Main page - Section 2 - What are we doing==========*/
