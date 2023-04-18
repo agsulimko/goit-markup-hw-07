@@ -531,7 +531,7 @@ padding-bottom: 96px;
 .feature-item .text{
   width: 264px;
 }
-
+/* 
 .feature-item::before{
   display: block;
   content: '';
@@ -554,7 +554,7 @@ background-image: url(../images/icons/icon_diagram.svg );
 }
 .feature-item:nth-child(4):before {
 background-image: url(../images/icons/icon_astronaut.svg );
-}
+} */
 
 /* ===========Main page - Section 1 - Feature==========*/
 
