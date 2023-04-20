@@ -65,10 +65,12 @@ img {
 
 /* ===============COMPONENTS=================== */
 .container {
-    /* max-width: 1158px; */
+    width: 1158px; 
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;}
+    margin: 0 auto;
+    outline: 1px solid tomato;
+}
 
    
 
@@ -236,20 +238,20 @@ img {
 /* =================Main page Header=================*/
 
 /*==================Main page - Hero image=================*/
-/* .hero {
-    margin: 0 auto;
+ .hero {
+    /* margin: 0 auto;
     background-color: var(--color-background-hero);
     text-align: center;
     padding-top: 188px;
-    padding-bottom: 188px;
+    padding-bottom: 188px; */
     background-image: var(--bd-gradient),
         url(../images/main_page/background/hero-bd.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     max-width: 1440px;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 
-} */
+} 
 
 .hero-title {
     /* font-weight: 700; */
@@ -539,13 +541,17 @@ img {
     padding-bottom: 120px;
 }
 
+.feature-item {
+    margin: 0;
+}
 .feature-list {
     display: flex;
+    flex-direction: row;
 }
 
-.feature-item {
+/* .feature-item {
     margin-right: 24px;
-}
+} */
 
 .feature-item:last-child {
     margin-right: 0;
@@ -606,44 +612,44 @@ img {
 /* ===========Main page - Section 3 - Our Team==========*/
 
 .team {
-    background-color: var(--color-background-team);
-    margin: 0 auto;
+    /* background-color: var(--color-background-team); */
+    /* margin: 0 auto; */
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .team-list {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 24px; */
 }
 
 .team-item {
-    background-color: var(--color-card-team);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+    /* background-color: var(--color-card-team); */
+    /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+    /* border-radius: 0px 0px 4px 4px; */
     /*  */
-    display: flex;
-    max-width: 265px;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
+    /* display: flex; */
+    /* max-width: 264px; */
+    /* flex-wrap: wrap; */
+    /* align-content: space-between; */
+    /* justify-content: center; */
     /*  */
 }
 
 
 .team-card {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    text-align: center;
+    /* padding-top: 32px; */
+    /* padding-bottom: 32px; */
+    /* text-align: center; */
 
 }
 
 .team-card>.text {
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
-.team-soc-list {
+/* .team-soc-list {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -674,7 +680,7 @@ img {
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: var(--color-OCEAN);
-}
+} */
 
 /* ====/Main page - Section 3 - Our Team==========*/
 
@@ -685,16 +691,16 @@ img {
     padding-bottom: 120px;
 }
 
-.customers-logo {
+/* .customers-logo {
     fill: #8E8F99;
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
-}
+} */
 
 .customers-list {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     gap: 24px;
 }
 
@@ -748,7 +754,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-Cloud);
-    width: 264px;
+    width: 268px;
     margin-top: 16px;
 }
 
@@ -761,9 +767,18 @@ img {
     margin-bottom: 16px;
 }
 
-.footer>.container {
-    display: flex;
+.footer-div{
+    /* margin-left: 0 auto; */
 }
+
+.footer>.container {
+    /* display: flex; */
+    flex-wrap: nowrap;
+
+    gap:0;
+}
+
+
 
 .div-footer-logo {
     margin-right: 120px;
@@ -792,7 +807,7 @@ img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #434455;
+background-color: var(--color-IRIS);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -810,7 +825,8 @@ img {
     display: flex;
     align-items: center;
     cursor: pointer;
-    gap: 24px;
+    /* gap: 24px; */
+    
 }
 
 .footer-btn {
