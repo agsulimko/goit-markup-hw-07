@@ -108,8 +108,8 @@ color:var(--color-NAVYBLU);
   background-color:rgba(255, 255, 255,0.5);
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px; */
+  /* padding-bottom: 24px; */
   box-shadow: 0px 2px 1px
    rgba(46, 47, 66, 0.08), 0px 1px 1px
     rgba(46, 47, 66, 0.16), 0px 1px 6px
@@ -117,10 +117,10 @@ color:var(--color-NAVYBLU);
 }
 
 .header-nav {
-display: flex;
-align-items: center;
-gap: 76px;
-margin-right: auto;
+ /* display: flex;  */
+ gap: 76px;
+ margin-right: auto;
+ align-items: center;
 
 }
 .logo {
@@ -133,8 +133,11 @@ margin-right: auto;
   text-transform: uppercase;
   color: var(--color-IRIS);
   display: block;
-  text-align: center;
-  margin-bottom: 16px;
+  /* text-align: center; */
+  margin-bottom: 23px;
+  margin-top: 23px;
+  margin-left: 0;
+
 }
 
 .logo-studio {
@@ -143,7 +146,7 @@ margin-right: auto;
   color: var(--color-NAVYBLU);
 }
 
-.nav-list  {
+ .nav-list  {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -152,27 +155,32 @@ margin-right: auto;
   color: var(--color-NAVYBLU);
   display: flex;
   gap: 40px;
-}
-.div-nav{
-display:flex;
-align-items: center;
-
 } 
 
-.nav-link {
+ .div-nav{
+  display:flex;
+/*align-items: center;
+  */}
+
+
+ .nav-link {
+  display: none;
+ 
   position: relative;
   color:var(--color-NAVYBLU);
   transition-property: color ;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function) ;
-  
-}
+  }
+
 
 .nav-link:hover, 
 .nav-link:focus {color: var(--color-OCEAN);}
 
+
  .nav-item{
-  display: flex;
+
+  /* display: flex; */
   
 } 
 
@@ -200,7 +208,11 @@ background-color: var(--color-OCEAN);}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-SLATE);
+
+  display: none;
+
 }
+
 
 .contacts-list {
  display: flex;
@@ -217,7 +229,7 @@ transition-timing-function: var(--transition-timing-function);
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-}
+} 
 
 
 /* =================Main page Header=================*/
