@@ -1,75 +1,13 @@
-:root {
-    --color-IRIS: #4d5ae5;
-    --color-OCEAN: #404bbf;
-    --color-NAVYBLU: #2e2f42;
-    --color-SLATE: #434455;
-    --color-Cloud: #f4f4fd;
-    --color-WHITE: #ffffff;
-    --color-background-hero: #2e2f42;
-    --color-background-button: #4d5ae5;
-    --color-card-team: #ffffff;
-    --color-background-team: #f4f4fd;
-    --bd-gradient: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7));
-    --transition-duration: 250ms;
-    --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-body {
-    font-family: "Roboto", sans-serif;
-    --color-NAVYBLU: #2e2f42;
-    background-color: #ffffff;
-}
-
-a {
-    cursor: pointer;
-}
-
-p {
-    font-style: normal;
-    font-weight: 400;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style: none;
-    margin: 0;
-}
 
 
 
 /* ===============COMPONENTS=================== */
 .container {
     max-width: 1158px; 
-    /* padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto; */
-    outline: 1px solid tomato;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+   
 }
 
    
@@ -120,37 +58,32 @@ img {
 /* =======================Main page Header=======*/
 
 .header {
-    background-color: rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid #e7e9fc;
-    margin: 0 auto;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+ padding-top: 24px;
+ padding-bottom: 24px;
+
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* border-bottom: 1px solid #e7e9fc; */
+    /* margin: 0 auto; */
+    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
     gap: 76px;
-    margin-right: auto;
+
+ /* display: flex;
+    align-items: center;
+    margin-right: auto; */
 
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-IRIS);
+   
 }
 
 .logo-studio {
-    letter-spacing: 0.03em;
+    /* letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-NAVYBLU);
+    color: var(--color-NAVYBLU); */
 }
 
 .nav-list {
@@ -209,17 +142,16 @@ img {
 }
 
 .header-contacts {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-SLATE);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+  
 }
 
 .contacts-list {
     display: flex;
     gap: 40px;
+    flex-direction: row;
 }
 
 .contacts-link {
@@ -774,8 +706,8 @@ img {
 .footer>.container {
     /* display: flex; */
     flex-wrap: nowrap;
-
     gap:0;
+    padding-left: 15px;
 }
 
 
