@@ -19,6 +19,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" 
+     href="./css/mobile-memu.css" 
+     media=""/> -->
     <link
       rel="stylesheet"
       href="./css/tablet.css"
@@ -53,6 +56,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open_btn">
+          <svg class="mobile-menu-open_icon" width="43" height="22">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="header-contacts">
           <ul class="contacts-list list">
             <li class="contacts-item">
@@ -68,6 +76,30 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-menu">
+  
+
+        <button type="button" class="mobile-menu-close_btn">
+          <svg class="mobile-menu-close_icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+           <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link active-page" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+
+
+      </div>
     </header>
 
     <!-- Main -->
@@ -79,7 +111,7 @@
           Order Service
         </button>
       </section>
-      
+
       <!-- Section 1 -->
       <section class="feature">
         <div class="container">
@@ -158,7 +190,7 @@
             <li class="team-item">
               <img
                 class="team-images"
-                srcset="./images/main_page/team/mark_guerrero@2x.jpg 2x "
+                srcset="./images/main_page/team/mark_guerrero@2x.jpg 2x"
                 src="./images/main_page/team/mark_guerrero.jpg"
                 alt="Mark Guerrero"
               />
@@ -244,7 +276,7 @@
             <li class="team-item">
               <img
                 class="team-images"
-                srcset="./images/main_page/team/camila_garcia@2x.jpg 2x "
+                srcset="./images/main_page/team/camila_garcia@2x.jpg 2x"
                 src="./images/main_page/team/camila_garcia.jpg"
                 alt="Camila Garcia"
               />
@@ -459,7 +491,7 @@
       </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="hero-btn-close">
           <svg class="icon-modal-close" width="8" height="8">
@@ -523,10 +555,10 @@
                 placeholder="Text input"
               ></textarea>
             </div>
-          </div> -->
+          </div>
 
-    <!-- checkbox -->
-    <!-- <input
+          <!-- checkbox -->
+          <input
             class="input-check visually-hidden"
             id="privacy"
             name="privacy"
@@ -551,8 +583,9 @@
           <button type="submit" class="form-btn">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/speaker-form.js"></script>
+
     <!-- Скрипт на запрет отправки формы -->
     <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
