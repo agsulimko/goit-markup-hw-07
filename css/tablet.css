@@ -728,7 +728,7 @@ padding-left: 108px;
 .div-footer {
     display: flex;
     gap:24px;
-    margin-left: 108px;
+    /* margin-left: 108px; */
 }
 
 .div-footer-logo {

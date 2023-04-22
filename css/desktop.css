@@ -702,7 +702,7 @@ letter-spacing: 0.02em;
 }
 
 .footer-div{
-    /* margin-left: 0 auto; */
+     /* margin-left: 0; */
 }
 
 .footer>.container {
@@ -713,6 +713,8 @@ letter-spacing: 0.02em;
 }
 
 
+.div-footer {
+    gap:0; }
 
 .div-footer-logo {
     margin-right: 120px;
