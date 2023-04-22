@@ -509,7 +509,7 @@ color: var(--color-SLATE);
     text-align: left ;
 }
 
-.feature-item::before 
+.feature-item::before {
    /*  content: '';
     width: 264px;
     height: 112px;
