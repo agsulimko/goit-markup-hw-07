@@ -73,7 +73,8 @@
 }
 
 .logo {
-    text-align: left;   
+    text-align: left; 
+    margin-right: 120px;  
 }
 
 .logo-studio {
@@ -140,8 +141,12 @@
 
 .header-contacts {
 display: block;
-  
-}  
+
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: var(--color-SLATE);
+}
 
 .contacts-list {
     /* display: flex; */
