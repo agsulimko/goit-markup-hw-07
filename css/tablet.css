@@ -307,7 +307,7 @@ color: var(--color-SLATE);
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
 }
-
+/* 
 .form-textarea {
     display: block;
     height: 120px;
@@ -322,8 +322,8 @@ color: var(--color-SLATE);
     transition-property: border-color, color;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
-}
-
+} */
+/* 
 .icon-form {
     position: absolute;
     top: 50%;
@@ -334,8 +334,8 @@ color: var(--color-SLATE);
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
-}
-
+} */
+/* 
 .form-textarea::placeholder {
     color: rgba(46, 47, 66, 0.4);
 }
@@ -364,9 +364,9 @@ color: var(--color-SLATE);
 
 .form-field:last-child {
     margin-bottom: 0px;
-}
+} */
 
-.form-btn {
+/* .form-btn {
     display: block;
     align-items: center;
     background: var(--color-IRIS);
@@ -382,10 +382,10 @@ color: var(--color-SLATE);
     letter-spacing: 0.04em;
     cursor: pointer;
     margin: 0 auto;
-}
+} */
 
 /*  checkbox*/
-.check-text {
+/* .check-text {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -396,9 +396,9 @@ color: var(--color-SLATE);
     cursor: pointer;
     margin-bottom: 24px;
     margin-top: 16PX;
-}
+} */
 
-.check-text span {
+/* .check-text span {
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -420,12 +420,12 @@ color: var(--color-SLATE);
 
 .input-check:focus+.check-text span {
     border-color: var(--color-OCEAN);
-}
-
+} */
+/* 
 .privacy-policy-link {
     color: var(--color-IRIS);
-}
-
+} */
+/* 
 .hero-btn-close {
     display: flex;
     position: absolute;
@@ -448,19 +448,19 @@ color: var(--color-SLATE);
 .hero-btn-close:focus {
     background-color: var(--color-OCEAN);
     border-color: var(--color-OCEAN);
-}
-
+} 
+/* 
 .icon-modal-close {
     fill: var(--color-NAVYBLU);
     transition-property: fill;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);
-}
-
+} */
+/* 
 .hero-btn-close:hover>.icon-modal-close,
 .hero-btn-close:focus>.icon-modal-close {
     fill: var(--color-WHITE);
-}
+} */
 
 
 
@@ -469,12 +469,16 @@ color: var(--color-SLATE);
 /* ===========Main page - Section 1 - Feature==========*/
 
 .feature {
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
+   
 }
+
 .feature-item {
     margin: 0;
 }
+
+/* .feature-item {
+    margin-right: 24px;   
+} */
 
 .feature-list {
     display: flex;
@@ -483,9 +487,7 @@ color: var(--color-SLATE);
     justify-content: space-between ;
 }
 
-/* .feature-item {
-    margin-right: 24px;   
-} */
+
 
 
 
@@ -504,35 +506,35 @@ color: var(--color-SLATE);
 }
 
 .feature-item .title {
-    text-align: left ;}
+    text-align: left ;
+}
 
-/* .feature-item::before {
-    display: block;
-    content: '';
+.feature-item::before 
+   /*  content: '';
     width: 264px;
     height: 112px;
     background-repeat: no-repeat;
     background-size: 60px 64px;
     background-color: var(--color-Cloud);
     background-position: 50% 50%;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
 }
 
-.feature-item:nth-child(1):before {
+/* .feature-item:nth-child(1):before {
     background-image: url(../images/icons/icon_antenna.svg);
-}
-
-.feature-item:nth-child(2):before {
-    background-image: url(../images/icons/icon_clock.svg );
-}
-
-.feature-item:nth-child(3):before {
-    background-image: url(../images/icons/icon_diagram.svg );
-}
-
-.feature-item:nth-child(4):before {
-    background-image: url(../images/icons/icon_astronaut.svg );
 } */
+
+/* .feature-item:nth-child(2):before {
+    background-image: url(../images/icons/icon_clock.svg );
+} */
+
+/* .feature-item:nth-child(3):before {
+    background-image: url(../images/icons/icon_diagram.svg );
+} */
+
+/* .feature-item:nth-child(4):before {
+    background-image: url(../images/icons/icon_astronaut.svg );
+}  */
 
 /* ===========Main page - Section 1 - Feature==========*/
 
