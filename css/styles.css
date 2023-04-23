@@ -52,7 +52,7 @@ img {
 }
 /* ===============COMPONENTS=================== */
  .container{
-  width: 100%;
+  max-width: 100%;
   max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
@@ -426,7 +426,7 @@ transition-timing-function: var(--transition-timing-function);
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-WHITE);
-  width: 320px;
+  max-width: 320px;
   margin: 0 auto;
   margin-bottom : 48px;
   text-align: center;
@@ -481,11 +481,12 @@ transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
 }
 
  .modal{
+  max-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 392px;
-  height: 584px;
+  min-height: 584px;
   background-color:#FCFCFC; 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -529,6 +530,7 @@ margin-bottom: 4px;
 }
 
 .form-input {
+  max-width: 100%;
   height: 40px;
   width: 360px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -542,6 +544,7 @@ margin-bottom: 4px;
   }
 
 .form-textarea {
+  max-width: 100%;
   display: block;
   height: 120px;
   width: 360px;
@@ -824,6 +827,7 @@ justify-content: center;
 padding-top: 32px;
 padding-bottom: 32px;
 text-align: center;
+max-width: 100%;
 
 }
 .team-card>.text{
@@ -943,7 +947,7 @@ padding-bottom: 96px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-Cloud);
-  width: 268px;
+  max-width: 268px;
   /* margin-top: 16px; */
   margin: 0 auto;
 }
