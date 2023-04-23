@@ -317,18 +317,21 @@ transition-timing-function: var(--transition-timing-function);
   
   .mobile_menu-btn-close{
   
-    background-color: rgba(231, 233, 252, 0.1);
-    border: 1px solid #2E2F42;
-    line-height: 0;
-    cursor: pointer; 
-    position: absolute;
-    top: 24px;
-    right: 24px; 
-
+  background-color:  rgb(232, 234, 252, 0.1);
+  border: 1px solid #2e2f421a;
+  line-height: 0;
+  cursor: pointer; 
+  position: absolute;
+  top: 24px;
+  right: 24px; 
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  cursor: pointer;
+  
+transition-property: background-color, border-color;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function); 
+
    }
   
    
@@ -339,6 +342,11 @@ transition-timing-function: var(--transition-timing-function);
   transition-timing-function: var(--transition-timing-function);
  }
 
+ 
+.mobile_menu-btn-close:focus{
+  background-color:var(--color-OCEAN) ;
+  border-color: var(--color-OCEAN);
+}
 
 /* 
   .mobile_menu-container{
@@ -670,6 +678,7 @@ transition-timing-function: var(--transition-timing-function);
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  line-height: 0;
   cursor: pointer;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
