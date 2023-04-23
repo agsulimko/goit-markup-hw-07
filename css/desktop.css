@@ -425,9 +425,9 @@ letter-spacing: 0.02em;
 .privacy-policy-link {
     color: var(--color-IRIS); 
 }*/
-/* 
+
 .hero-btn-close {
-    display: flex;
+    /* display: flex; 
     position: absolute;
     top: 24px;
     right: 24px;
@@ -441,8 +441,8 @@ letter-spacing: 0.02em;
     justify-content: center;
     transition-property: background-color, border-color;
     transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
-} */
+    transition-timing-function: var(--transition-timing-function);*/
+} 
 
 .hero-btn-close:hover,
 .hero-btn-close:focus {

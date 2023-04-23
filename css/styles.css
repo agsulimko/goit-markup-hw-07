@@ -314,25 +314,12 @@ transition-timing-function: var(--transition-timing-function);
   opacity: 1;
     visibility: visible;
     pointer-events: auto;}
+   
   
-  .mobile_menu-btn-close{
   
-  background-color:  rgb(232, 234, 252, 0.1);
-  border: 1px solid #2e2f421a;
-  line-height: 0;
-  cursor: pointer; 
-  position: absolute;
-  top: 24px;
-  right: 24px; 
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
   
-transition-property: background-color, border-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--transition-timing-function); 
 
-   }
+   } 
   
    
  .mobile_menu-icon-close{
@@ -497,7 +484,7 @@ transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 392px;
   height: 584px;
   background-color:#FCFCFC; 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -506,7 +493,7 @@ transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
   transition-property: transform; 
   transition-duration: var(--transition-duration);
   transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
- padding: 72px 24px 24px 24px;
+ padding: 72px 16px 24px 16px;
 }
 
 .modal-title{
@@ -680,15 +667,21 @@ transition-timing-function: var(--transition-timing-function);
   border-radius: 50%;
   line-height: 0;
   cursor: pointer;
-  background-color: #E7E9FC;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #E7E9FC; 
+  border: 1px solid rgba(0, 0, 0, 0.1); 
   align-items: center;
   justify-content: center;
   transition-property: background-color, border-color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function); 
-  
-    
+   
+}
+
+
+.mobile_menu .hero-btn-close {
+  background-color:  rgba(231, 233, 252, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.1);
+  line-height: 0;
 }
 
 .hero-btn-close:hover,
