@@ -237,17 +237,17 @@ letter-spacing: 0.02em;
 } */
 
 .backdrop.is-hidden {
-    opacity: 0;
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
 }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scaleY(0) rotate(180deg);
+    /* transform: translate(-50%, -50%) scaleY(0) rotate(180deg); */
 }
 
 .modal {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     width: 408px;
@@ -259,22 +259,22 @@ letter-spacing: 0.02em;
     transition-property: transform;
     transition-duration: var(--transition-duration);
     transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 24px 24px 24px; */
 }
 
 .modal-title {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-NAVYBLU);
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
 
 }
 
-.form-field {
+/* .form-field {
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -292,10 +292,10 @@ letter-spacing: 0.02em;
 
 .input-wrap {
     position: relative;
-}
+} */
 
 .form-input {
-    height: 40px;
+    /* height: 40px;
     width: 360px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -304,7 +304,7 @@ letter-spacing: 0.02em;
     outline: transparent;
     transition-property: background-color;
     transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
+    transition-timing-function: var(--transition-timing-function); */
 }
 /* 
 .form-textarea {
@@ -442,12 +442,12 @@ letter-spacing: 0.02em;
     transition-duration: var(--transition-duration);
     transition-timing-function: var(--transition-timing-function);*/
 } 
-
+/* 
 .hero-btn-close:hover,
 .hero-btn-close:focus {
     background-color: var(--color-OCEAN);
     border-color: var(--color-OCEAN);
-}
+} */
 
 /* .icon-modal-close {
     fill: var(--color-NAVYBLU);
@@ -527,7 +527,7 @@ letter-spacing: 0.02em;
 
 /* ===========/Main page - Section 2 - What are we doing==========*/
 
-
+/* 
 .works {
     margin: 0 auto;
     padding-bottom: 120px;
@@ -538,7 +538,7 @@ letter-spacing: 0.02em;
     display: flex;
     justify-content: space-between;
 
-}
+} */
 
 /* ===========/Main page - Section 2 - What are we doing==========*/
 
@@ -632,8 +632,8 @@ letter-spacing: 0.02em;
 } */
 
 .customers-list {
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex; 
+     justify-content: center; 
     gap: 24px;
 }
 
@@ -641,35 +641,30 @@ letter-spacing: 0.02em;
     display: flex;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    width: 168px;
-    height: 88px;
-    justify-content: center;
-    align-items: center;
-    transition-property: border-color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
+     width: 168px; 
+  
 }
 
-.customers-link:hover>.customers-logo,
+/* .customers-link:hover>.customers-logo,
 .customers-link:focus>.customers-logo {
     fill: var(--color-OCEAN);
-}
-
+}  */
+/* 
 .customers-link:hover,
 .customers-link:focus {
     border-color: var(--color-OCEAN);
-}
+} */
 
 /* -- Section 4 Customers -- */
 
 /* ==========Footer==========*/
 
 .footer {
-    background-color: var(--color-background-hero);
+    /* background-color: var(--color-background-hero);
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
-
+/* 
 .logo-studio-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -680,24 +675,24 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
     color: var(--color-Cloud);
 
-}
+} */
 
 .footer-text {
-    font-size: 16px;
+    /* font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-Cloud);
+    margin-top: 16px; */
     width: 268px;
-    margin-top: 16px;
 }
 
 .footer-title {
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-WHITE);
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
 }
 
 .footer-div{
@@ -724,21 +719,21 @@ letter-spacing: 0.02em;
 }
 
 .footer-soc-list {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 16px; */
 }
 
-.footer-soc-item {
-    width: 40px;
-    height: 40px;
+ .footer-soc-item {
+    /* width: 40px;
+    height: 40px; */
 }
 
 .footer-soc-icon {
-    fill: var(--color-Cloud);
+    /* fill: var(--color-Cloud);  */
 }
 
-.footer-soc-link {
+/* .footer-soc-link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -754,16 +749,17 @@ background-color: var(--color-IRIS);
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #31D0AA;
-}
+} */
 
 .footer-subscribe {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+    /* display: flex;
+    align-items: center; */
+    
     /* gap: 24px; */
     
 }
 
+/* 
 .footer-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -775,21 +771,20 @@ background-color: var(--color-IRIS);
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid transparent;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    
     display: flex;
     align-items: center;
     gap: 16px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
+    padding: 8px 24px;
+} */
 
+/* 
 .icon-telegram {
     fill: var(--color-WHITE);
-}
+} */
 
 .footer-email {
-    background-color: inherit;
+    /* background-color: inherit;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -800,12 +795,12 @@ background-color: var(--color-IRIS);
     height: 40px;
     padding-left: 16px;
     color: var(--color-WHITE);
-    outline: transparent;
+    outline: transparent; */
 }
-
+/* 
 .footer-email::placeholder {
     color: var(--color-WHITE);
-}
+} */
 
 /* ====================Footer=============*/
 /* =======================MAIN PAGE=========*/
@@ -814,7 +809,7 @@ background-color: var(--color-IRIS);
 
 /* =========================PORTFOLIO=========== */
 /* ===============Section 1  Filter========== */
-
+/* 
 .filter {
     margin: 0 auto;
     padding-bottom: 120px;
@@ -853,7 +848,7 @@ background-color: var(--color-IRIS);
     background-color: #404BBF;
     border-color: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* ========Section 1  Filter======= */
 

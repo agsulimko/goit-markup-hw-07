@@ -604,8 +604,8 @@ margin: 0 auto;
 /*  checkbox*/
 .check-text{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
   gap: 8px;
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -729,14 +729,14 @@ text-align: center;
 
 .feature-item::before{
   display: none;
-  content: '';
+  /* content: '';
   width: 264px;
   height: 112px;
   background-repeat: no-repeat;
   background-size: 60px 64px;
   background-color: var(--color-Cloud);
   background-position: 50% 50%;
-  margin-bottom: 8px;
+  margin-bottom: 8px; */
 }
 .feature-item:nth-child(1):before {
 background-image: url(../images/icons/icon_antenna.svg);
@@ -924,13 +924,13 @@ padding-bottom: 96px;
   color: var(--color-Cloud); 
   
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-Cloud);
   max-width: 268px;
-  /* margin-top: 16px; */
   margin: 0 auto;
 }
 
@@ -1037,8 +1037,7 @@ transition-timing-function: var(--transition-timing-function);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  /* max-width:398px;  */
-
+ 
   height: 40px;
   padding-left: 16px;
   color: var(--color-WHITE);
