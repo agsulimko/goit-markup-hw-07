@@ -834,7 +834,7 @@ max-width: 100%;
   margin-bottom: 8px;}
 
   .mobile_menu .team-soc-list {
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
   gap: 56px;
   flex-wrap: wrap;
