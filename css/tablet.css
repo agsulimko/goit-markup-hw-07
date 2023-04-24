@@ -5,10 +5,13 @@
 .container {
     max-width: 768px;
    
-
 }
 
 
+.title { 
+  
+    
+  }
 
 /* ===============/COMPONENTS=================== */
 
@@ -27,7 +30,7 @@
 
 }
 
-.logo {
+.div-footer-logo .logo {
     text-align: left; 
     margin-right: 120px;  
 }
@@ -46,7 +49,7 @@
 }
 
 .div-nav {
-   
+    display: flex; 
     align-items: center; 
 
 }
@@ -77,10 +80,9 @@
 
 .header-contacts {
 display: block;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: var(--color-SLATE);
+margin: 0; 
+    
+
 }
 
 .contacts-list {
@@ -89,16 +91,13 @@ color: var(--color-SLATE);
 }
 
 .contacts-link {
-    color: var(--color-SLATE);
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
+    
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
 
 
 /* =================Main page Header=================*/
@@ -184,11 +183,15 @@ color: var(--color-SLATE);
 
 /* ===========Main page - Section 3 - Our Team==========*/
 
+.team-div{
+    width: 552px;
+    margin: 0 auto;
+}
+
 
 .team-list {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    justify-content: center;
     gap: 64px 24px;
 }
 
@@ -202,6 +205,13 @@ color: var(--color-SLATE);
 
 
 /* -- Section 4 Customers -- */
+.customers-div{
+    width: 552px;
+    margin:0 auto;
+}
+.customers-link{
+    width:168px;
+}
 
 .customers-list {
 gap: 72px 24px;
@@ -231,7 +241,11 @@ gap: 72px 24px;
 display: flex;
 flex-wrap: wrap;
 gap:72px 24px;
-padding-left: 108px;
+
+}
+.footer-container-div{
+    width: 552px;
+    margin: 0 auto;
 }
 
 .div-footer {
@@ -252,8 +266,10 @@ padding-left: 108px;
 
 
 .footer-subscribe {
-display: flex;
+display: flex; 
 align-items: baseline;
+ align-items: center;
+ gap: 24px;
 }
 
 .footer-email {

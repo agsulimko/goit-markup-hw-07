@@ -10,6 +10,22 @@
    
 }
 
+
+
+
+.title { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px; 
+  }
+
+
+.text {
+  font-weight: 400;
+ 
+ } 
+
    
 /* 
 .page-title {
@@ -61,23 +77,11 @@
  padding-top: 24px;
  padding-bottom: 24px;
 
-    /* background-color: rgba(255, 255, 255, 0.5); */
-    /* border-bottom: 1px solid #e7e9fc; */
-    /* margin: 0 auto; */
-    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
-}
-
-.header-nav {
-    gap: 76px;
-
- /* display: flex;
-    align-items: center;
-    margin-right: auto; */
-
+ 
 }
 
 .logo {
-   
+    margin-right:76px;
 }
 
 .logo-studio {
@@ -142,9 +146,7 @@
 } */
 
 .header-contacts {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+
   
 }
 
@@ -155,91 +157,36 @@ letter-spacing: 0.02em;
 }
 
 .contacts-link {
-    /* color: var(--color-SLATE);
-    transition-property: color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function); */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+   
 }
-/* 
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-} */
 
 
 /* =================Main page Header=================*/
 
 /*==================Main page - Hero image=================*/
  .hero {
-    /* margin: 0 auto;
-    background-color: var(--color-background-hero);
-    text-align: center;*/
+   
     padding-top: 188px;
     padding-bottom: 188px; 
     background-image: var(--bd-gradient),
         url(../images/main_page/background/hero-bd.png);
-    /* background-repeat: no-repeat;
-    max-width: 1440px;
-    background-position: center;
-    background-size: cover; */
+   
 
 } 
 
 .hero-title {
-    /* font-weight: 700; */
-    /* font-size: 56px;
-    line-height: 1.07;
-    width: 496px; */
-      /* letter-spacing: 0.02em;
-    color: var(--color-WHITE);
-    
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 48px; */
+   
 }
 
-/* .hero-btn {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--color-WHITE);
-    background-color: var(--color-background-button);
-    border-radius: 4px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    padding: 16px 32px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
-    transition-property: background-color;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: var(--transition-timing-function);
-} */
-
-/* .hero-btn:hover,
-.hero-btn:focus {
-} */
 
 
-/* ========Modal ========= */
-/* .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    opacity: 1;
-    transition-property: opacity, visibility;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
-} */
 
 .backdrop.is-hidden {
-    /* opacity: 0;
-    visibility: hidden;
-    pointer-events: none; */
+   
 }
 
 .backdrop.is-hidden .modal {
@@ -247,19 +194,6 @@ letter-spacing: 0.02em;
 }
 
 .modal {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 408px;
-    height: 584px;
-    background-color: #FCFCFC;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    transform: translate(-50%, -50%) scale(1);
-    transition-property: transform;
-    transition-duration: var(--transition-duration);
-    transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
-    padding: 72px 24px 24px 24px; */
 }
 
 .modal-title {
@@ -551,6 +485,12 @@ letter-spacing: 0.02em;
     padding-bottom: 120px;
 }
 
+
+.team-div{
+    width: 100%;
+  
+}
+
 .team-list {
     /* display: flex; */
     /* justify-content: center; */
@@ -633,15 +573,15 @@ letter-spacing: 0.02em;
 
 .customers-list {
     display: flex; 
-     justify-content: center; 
-    gap: 24px;
+    flex-wrap: nowrap;
 }
 
 .customers-link {
-    display: flex;
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-     width: 168px; 
+    /* display: flex; */
+    /* border: 1px solid #8E8F99;
+    border-radius: 4px; */
+     /* width: 168px;  */
+
   
 }
 
