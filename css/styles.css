@@ -947,17 +947,13 @@ transition-timing-function: var(--transition-timing-function);
   background-color: #31D0AA;
 }
 
-.footer-subscribe{
- 
-  
+.footer-subscribe{ 
   cursor: pointer;
-  
-  
 }
 
 .footer-btn {
   
-  margin: 0 auto;
+  margin: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -981,7 +977,7 @@ transition-timing-function: var(--transition-timing-function);
 
 .footer-email{
   display:block ;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: inherit;
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));

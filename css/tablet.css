@@ -31,10 +31,15 @@
 }
 
 .div-footer-logo .logo {
-    text-align: left; 
-    margin-right: 120px;  
+    text-align: left;
+    margin-right: 0;
+     
 }
 
+.logo{
+    margin-right: 120px; 
+
+}
 
 .nav-list {
 
@@ -251,6 +256,7 @@ gap:72px 24px;
 .div-footer {
     display: flex;
     gap:24px;
+    margin-bottom: 72px;
    
 }
 
@@ -267,14 +273,17 @@ gap:72px 24px;
 
 .footer-subscribe {
 display: flex; 
-align-items: baseline;
- align-items: center;
- gap: 24px;
+gap: 24px;
+
 }
 
 .footer-email {
 margin-bottom: 0;
     width: 264px;
+
+}
+.footer-btn {
+  margin-left: 0;
 }
 
 
