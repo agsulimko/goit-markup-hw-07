@@ -192,14 +192,7 @@ color:var(--color-NAVYBLU);
 
 .nav-link::after{
   display: none;
-  /* display:block; */
-  /* position: absolute;
-  content: ' ';
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  bottom: -25px;
-  background-color: transparent; */
+ 
 }
  
 .active-page.nav-link::after{
@@ -657,13 +650,11 @@ padding-bottom: 96px;
 }
 
 .feature-list {
-  /* display:flex;
-  flex-direction: column;
-  gap: 72px; */
+
 }
 
 .feature-item {
-  /* margin-right: 24px; */
+  
 margin-bottom: 72px;
 } 
 
@@ -671,13 +662,9 @@ margin-bottom: 72px;
   margin-bottom : 0;
 }
 
-/* .feature-item:last-child{
-  margin-right: 0;
-} */
 
 .feature-item .text{
-   /* text-align: center;  */
-  /* width: 264px; */
+  
 }
 .feature-item .title {
 text-align: center;
@@ -686,14 +673,7 @@ text-align: center;
 
 .feature-item::before{
   display: none;
-  /* content: '';
-  width: 264px;
-  height: 112px;
-  background-repeat: no-repeat;
-  background-size: 60px 64px;
-  background-color: var(--color-Cloud);
-  background-position: 50% 50%;
-  margin-bottom: 8px; */
+ 
 }
 .feature-item:nth-child(1):before {
 background-image: url(../images/icons/icon_antenna.svg);
@@ -761,14 +741,14 @@ max-width: 264px;
 padding-top: 32px;
 padding-bottom: 32px;
 text-align: center;
-/* max-width: 100%; */
+
 
 }
 .team-card>.text{
   margin-bottom: 8px;}
 
   .mobile_menu .team-soc-list {
-  /* display: flex; */
+ 
   justify-content: flex-start;
   gap: 56px;
   flex-wrap: wrap;
@@ -898,11 +878,11 @@ padding-bottom: 96px;
 
 .footer.container{
   margin: 0 auto;
-  /* display: flex;  */
+
 }
 
 .div-footer-logo{
-  /* margin-right: 120px; */
+ 
   margin-bottom: 72px;
 
 }
@@ -911,7 +891,7 @@ padding-bottom: 96px;
     text-align: center;
 }
 .footer-soc{
-  /* margin-right: 80px; */
+
   margin-bottom: 72px;
 }
 
@@ -977,7 +957,7 @@ transition-timing-function: var(--transition-timing-function);
 
 .footer-email{
   display:block ;
-  /* margin: 0 auto; */
+  
   background-color: inherit;
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1138,14 +1118,5 @@ transition-timing-function: var(--transition-timing-function);
 
     }}
 
-     /* @media screen and (max-width:480px) {
-      
-      .container-mobile_menu {
-    
-        width: 428;
-        margin-left: auto;
-        margin-right: auto;
-      }
-  
-    }  */
+   
     
