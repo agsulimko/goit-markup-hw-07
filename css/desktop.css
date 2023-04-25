@@ -1,17 +1,9 @@
-
-
-
-
 /* ===============COMPONENTS=================== */
 .container {
     max-width: 1158px; 
     padding-left: 15px; 
-    padding-right: 15px;
-   
+    padding-right: 15px;  
 }
-
-
-
 
 .title { 
     font-weight: 500;
@@ -23,10 +15,10 @@
 
 .text {
   font-weight: 400;
- 
+
  } 
 
-  
+
 /* ===============/COMPONENTS=================== */
 
 /* =======================MAIN PAGE=========*/
@@ -35,53 +27,34 @@
 .header {
  padding-top: 24px;
  padding-bottom: 24px;
-
- 
 }
 
 .logo {
     margin-right:76px;
 }
 
-.logo-studio {
-    
-}
+.logo-studio {}
 
-.nav-list {
-  
-}
+.nav-list {}
 
 .div-nav {
     display: flex;
     align-items: center;
-
 }
 
-.nav-link {
-   
-}
+.nav-link {}
 
 .nav-link:hover,
-.nav-link:focus {
-    
-}
+.nav-link:focus {}
 
-.nav-item {
-    
+.nav-item {}
 
-}
+.nav-link::after { } 
 
-.nav-link::after {
-   
-} 
-
-.header-contacts {
-
-  
-}
+.header-contacts {}
 
 .contacts-list {
-    
+   
     gap: 40px;
     flex-direction: row;
 }
@@ -90,10 +63,8 @@
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
-   
+  
 }
-
 
 /* =================Main page Header=================*/
 
@@ -105,24 +76,7 @@ letter-spacing: 0.02em;
     background-image: var(--bd-gradient),
         url(../images/main_page/background/hero-bd.png);
    
-
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*=========Main page - Hero image*=================*/
@@ -187,26 +141,16 @@ letter-spacing: 0.02em;
 
 
 .team-div{
-    width: 100%;
-  
-}
-
-.team-list {
-  
-}
-
-.team-item {
-   
-  
-
-}
-
-.team-card>.text {
-   
+    width: 100%; 
 }
 
 
 
+.team-list {}
+
+.team-item {}
+
+.team-card>.text {  }
 
 
 /* ====/Main page - Section 3 - Our Team==========*/
@@ -265,7 +209,9 @@ width: 100%;
 }
 
 .div-footer {
-    gap:0; }
+    gap:0; 
+    margin-bottom: 0;
+}
 
 .div-footer-logo {
     margin-right: 120px;
@@ -408,5 +354,4 @@ width: 100%;
      .hero {
          background-image: var(--bd-gradient),
              url(../images/main_page/background/hero-bd@2x.png);
-     }
- }
+     }}
