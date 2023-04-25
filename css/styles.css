@@ -52,7 +52,7 @@ img {
 }
 /* ===============COMPONENTS=================== */
  .container{
-  max-width: 100%;
+ 
   max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
@@ -654,23 +654,23 @@ padding-bottom: 96px;
 }
 
 .feature-list {
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 
 
 .feature-item {
   
-margin-bottom: 72px;
-} 
+
+}  
 
 .feature-item:last-child {
-  margin-bottom : 0;
+  /* margin-bottom : 0; */
 }
 
 
-.feature-item .text{
-  
-}
+
 .feature-item .title {
 text-align: center;
   

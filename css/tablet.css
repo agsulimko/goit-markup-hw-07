@@ -48,7 +48,6 @@
 }
 
 .div-nav {
-    display: flex; 
     align-items: center; 
 
 }
@@ -149,14 +148,13 @@ letter-spacing: 0.04em;
 /* ===========Main page - Section 1 - Feature==========*/
 
 .feature-item {
-    margin-bottom:0;  
+     
 }
 
 .feature-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 72px 24px;
-    justify-content: space-between ;
+    
+ gap: 72px 24px;
+   
 }
 
 

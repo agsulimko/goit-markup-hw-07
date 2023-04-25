@@ -38,8 +38,8 @@
 .nav-list {}
 
 .div-nav {
-    display: flex;
-    align-items: center;
+   
+    
 }
 
 .nav-link {}
@@ -165,7 +165,7 @@ letter-spacing: 0.02em;
 
 
 .customers-list {
-    display: flex; 
+  
     flex-wrap: nowrap;
 }
 
@@ -199,7 +199,7 @@ letter-spacing: 0.02em;
     
     flex-wrap: nowrap;
     gap:0;
-    padding-left: 15px;
+    
 }
 
 .footer-container-div{
