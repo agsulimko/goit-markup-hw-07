@@ -104,7 +104,7 @@ letter-spacing: 0.04em;
 .hero {
    
     background-image: var(--bd-gradient),
-        url(../images/main_page/background/hero-bd_tablet.png);
+        url(../images/main_page/background/hero-bd_tablet.jpg);
   
 
 } 
@@ -167,6 +167,9 @@ letter-spacing: 0.04em;
     text-align: left ;
 }
 
+.footer-btn {
+  
+    margin:0;}
 
 /* ===========Main page - Section 1 - Feature==========*/
 
@@ -232,16 +235,16 @@ gap: 72px 24px;
 }
 
 .footer .container {
-display: flex;
+
 flex-wrap: wrap;
 
 }
 
 
 .div-footer {
-    display: flex;
+   
     gap:24px;
-    margin-bottom: 72px;
+    flex-direction: row;
    
 }
 
@@ -257,7 +260,7 @@ flex-wrap: wrap;
 
 
 .footer-subscribe {
-display: flex; 
+flex-direction: row; 
 gap: 24px;
 
 }
@@ -397,7 +400,7 @@ margin-bottom: 0;
 (min-resolution: 2dppx) {
     .hero {
         background-image: var(--bd-gradient),
-            url(../images/main_page/background/hero-bd_tablet@2x.png);
+            url(../images/main_page/background/hero-bd_tablet@2x.jpg);
           }}
 
 

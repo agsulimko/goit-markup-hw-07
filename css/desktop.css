@@ -60,6 +60,7 @@
 }
 
 .contacts-link {
+font-weight: 400;   
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -74,7 +75,7 @@ letter-spacing: 0.02em;
     padding-top: 188px;
     padding-bottom: 188px; 
     background-image: var(--bd-gradient),
-        url(../images/main_page/background/hero-bd.png);
+        url(../images/main_page/background/hero-bd.jpg);
    
 } 
 
@@ -184,7 +185,7 @@ letter-spacing: 0.02em;
 
 .footer-text {
   
-    width: 268px;
+    
 }
 
 .footer-title {
@@ -192,13 +193,14 @@ letter-spacing: 0.02em;
 }
 
 .footer-div{
-     
+   
 }
 
-.footer>.container {
-    
-    flex-wrap: nowrap;
-    gap:0;
+.footer .container {
+  flex-direction: row;
+  gap:80;
+  
+ 
     
 }
 
@@ -209,16 +211,16 @@ width: 100%;
 }
 
 .div-footer {
-    gap:0; 
+    gap:120px; 
     margin-bottom: 0;
 }
 
 .div-footer-logo {
-    margin-right: 120px;
+
 }
 
 .footer-soc {
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 
 
@@ -353,5 +355,5 @@ width: 100%;
  (min-resolution: 2dppx) {
      .hero {
          background-image: var(--bd-gradient),
-             url(../images/main_page/background/hero-bd@2x.png);
+             url(../images/main_page/background/hero-bd@2x.jpg);
      }}

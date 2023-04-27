@@ -349,7 +349,7 @@ color: var(--color-IRIS);
   padding-top: 112px;
   padding-bottom: 112px;
   background-image:var(--bd-gradient), 
-  url(../images/main_page/background/hero-bd_mobile.png);
+  url(../images/main_page/background/hero-bd_mobile.jpg);
   background-repeat: no-repeat;
   max-width: 1440px;
   background-position: center;
@@ -760,7 +760,12 @@ text-align: center;
 
 }
 .team-card>.text{
-  margin-bottom: 8px;}
+  margin-bottom: 8px;
+  font-weight: 400;
+
+  
+ 
+}
 
 
 
@@ -885,14 +890,26 @@ padding-bottom: 96px;
  text-align: center;
 }
 
-.footer.container{
+
+.footer .container{
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap:72px;
+  
+}
+
+.div-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+
 
 }
 
 .div-footer-logo{
  
-  margin-bottom: 72px;
+ 
 
 }
 .div-footer-logo .logo{
@@ -901,7 +918,7 @@ padding-bottom: 96px;
 }
 .footer-soc{
 
-  margin-bottom: 72px;
+ 
 }
 
 .footer-soc-list{
@@ -937,6 +954,9 @@ transition-timing-function: var(--transition-timing-function);
 }
 
 .footer-subscribe{ 
+  display: flex;
+  flex-direction: column;
+  gap:16px;
   cursor: pointer;
 }
 
@@ -966,7 +986,6 @@ transition-timing-function: var(--transition-timing-function);
 
 .footer-email{
   display:block ;
-  
   background-color: inherit;
   border: 1px solid #FFFFFF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -979,7 +998,6 @@ transition-timing-function: var(--transition-timing-function);
   padding-left: 16px;
   color: var(--color-WHITE);
   outline: transparent;
-  margin-bottom: 16px;
   width: calc((100%-30px)/1);
 }
 
@@ -1108,7 +1126,7 @@ transition-timing-function: var(--transition-timing-function);
  (min-resolution: 2dppx) {
    .hero {
      background-image: var(--bd-gradient),
-       url(../images/main_page/background/hero-bd_mobile@2x.png);
+       url(../images/main_page/background/hero-bd_mobile@2x.jpg);
    }}
 
  @media screen and (max-width:1199px) {
